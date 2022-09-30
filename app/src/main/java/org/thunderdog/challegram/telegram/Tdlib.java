@@ -552,7 +552,7 @@ public class Tdlib implements TdlibProvider, Settings.SettingsChangeListener {
         null, null, null, // updateParameters
         BuildConfig.VERSION_NAME,
         false,
-        false
+        true
       );
     } else {
       this.parameters = new TdApi.TdlibParameters(
